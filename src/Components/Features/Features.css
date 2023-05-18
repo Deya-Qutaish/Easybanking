@@ -1,0 +1,40 @@
+.features__section {
+  margin-bottom: 4rem;
+}
+
+.features__section > h1 {
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 1rem;
+
+  font-weight: 400;
+}
+
+.features__section > p {
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 0.5rem;
+}
+
+.features__section--tab {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.features__section--tab > div {
+  margin: 2em 0;
+  max-width: 15rem;
+}
+
+.features__section--tab > div > img {
+  margin-bottom: 1rem;
+}
+
+.features__section--tab > div > h2 {
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 1rem;
+}
+
+.features__section--tab > div > p {
+  color: hsl(233, 8%, 62%);
+  line-height: 1.4rem;
+}

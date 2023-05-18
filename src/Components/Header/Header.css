@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 32rem;
+
+  padding: 8em;
+}
+
+.header__text > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+}
+
+.header__text > p {
+  line-height: 1.5em;
+  color: hsl(233, 8%, 62%);
+  max-width: 32rem;
+  font-size: 20px;
+  margin: 1.5em 0;
+}
+
+.header__text > button {
+  padding: 1rem 0;
+  max-width: 14rem;
+}

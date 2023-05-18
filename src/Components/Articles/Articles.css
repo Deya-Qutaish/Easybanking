@@ -1,0 +1,44 @@
+.articles__header {
+  margin-bottom: 2em;
+
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+}
+
+.articles__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.articles__section-tab {
+  max-width: 390px;
+}
+
+.articles__section-tab > img {
+  width: 390px;
+  height: 275px;
+
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.articles__section-tab > div {
+  padding: 1.5em 2em;
+}
+
+.articles__section-tab > div > h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+
+  margin-bottom: 0.5em;
+}
+.articles__section-tab > div > h6 {
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 0.75em;
+  font-weight: 400;
+}
+.articles__section-tab > div > p {
+  color: hsl(233, 8%, 62%);
+}

@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0.5em;
+  background-color: white;
+
+  z-index: 5;
+}
+
+nav > li {
+  display: flex;
+}
+
+nav > li > ul {
+  margin: 0 1em;
+  padding: 1em 0;
+  color: grey;
+  border-bottom: solid transparent 4px;
+  transition: color 0.3s;
+}
+
+nav > li > ul:hover {
+  color: black;
+  border-bottom: solid 4px;
+  border-image: linear-gradient(
+    45deg,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%) 60%
+  );
+  border-image-slice: 1;
+  transition: 0.3s;
+}
+
+.request__button {
+  border: none;
+  background: linear-gradient(45deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 0.75em 1.75em;
+  border-radius: 25px;
+  color: white;
+  transition: 0.3s;
+}
+.request__button:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.request__button,
+nav > li > ul {
+  cursor: pointer;
+}
